@@ -1,0 +1,161 @@
+//@use "variables.scss";
+
+.header {
+  position: fixed;
+  color: white;
+  background-color: #42b976;
+  height: 5vh;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  border: solid gray 1px;
+  h1 {
+    font-size: 40px;
+    margin-left: 7.5vw;
+    grid-row: 2/3;
+  }
+  img {
+    margin-left: 5vw;
+    height: 4.95vh;
+    float: left;
+  }
+  h3 {
+    display: inline-block;
+    margin: auto 7.5vw;
+    margin-top: 1vh;
+  }
+}
+
+h2 {
+  color : #48d987;
+}
+
+.footer {
+  position: fixed;
+  color: white;
+  background-color: #42b976;
+  height: 10vh;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  border: solid gray 1px;
+  margin-top: 92vh;
+  h1 {
+    font-size: 40px;
+    margin-left: 7.5vw;
+    grid-row: 2/3;
+  }
+  img {
+    margin-left: 5vw;
+    height: 4.95vh;
+    float: left;
+  }
+  h3 {
+    display: inline-block;
+    margin: auto 7.5vw;
+    margin-top: 1vh;
+  }
+}
+
+.fade10 {
+  transition: all 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+.fade5 {
+  transition: all 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+.button {
+  transition: all 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+.button:hover {
+}
+
+.chatLink {
+  width: 100vw;
+  height: 5vh;
+  background-color: rgba(24, 88, 0, 0.25);
+    img{
+      height: 5vh;
+      border-radius: 50px;
+      display: inline-block;
+      margin-right: 50px;
+    }
+  div{
+    display: inline-block;
+    left: 50px;
+    margin-bottom: 2vh;
+    h3{
+      font-size: 25px;
+    }
+  }
+}
+
+.headerLink {
+  transition: all 100ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.headerLink:hover {
+  color: #42b976;
+  background-color: white;
+}
+
+.userContainer {
+  display: grid;
+  img {
+    grid-row: 1/4;
+    height: 95%;
+  }
+}
+
+.accountsDiv {
+  display: grid;
+  width: 15vw;
+  float: right;
+  background-color: darkslategray;
+  margin-right: 5vw;
+  border-radius: 5px;
+  div {
+    grid-column: 1/3;
+    display: grid;
+    div {
+      grid-column: 1/5;
+      grid-row: 4/5;
+      height: 35px;
+      width: 35px;
+      margin-left: 10%;
+      background-color: white;
+      border-radius: 100px;
+    }
+  }
+  h3 {
+    grid-column: 3/5;
+    margin-top: 0;
+    grid-row: 4/5;
+  }
+}
+
+ .container {
+   display: flex;
+ }
+
+.column {
+  flex: 1;
+  padding: 10px;
+  img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+.column.middle {
+  flex: 2;
+  img {
+    width: auto;
+    height: 90%;
+  }
+}
