@@ -50,7 +50,7 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 This project is licensed under the MIT License.
 
-
+```docker
 # Specify the base image
 FROM node:14
 
@@ -71,3 +71,4 @@ EXPOSE 8080
 
 # Start the server
 CMD [ "npm", "start" ]
+```
