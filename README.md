@@ -8,19 +8,22 @@ Golf Matcher is a web application that helps golf enthusiasts find golf partners
 
 ```bash
 git clone https://github.com/your-username/golf-matcher.git
+```
 
 2. Navigate to the project directory:
+```bash
 cd golf-matcher
-
+```
 3. Install the dependencies:
+```bash
 npm install
-
+```
 ## Usage
 
 1. Start the development server:
-
+```bash
 npm run dev
-
+```
 
 2. Open your web browser and access the application at `http://localhost:8080`.
 
